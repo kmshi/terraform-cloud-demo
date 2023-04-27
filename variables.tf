@@ -1,4 +1,4 @@
-variable "env" {
+variable "prefix" {
   type = string
-  default = "production"
+  #default = "production"
 }
