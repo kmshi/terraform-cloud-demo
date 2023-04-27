@@ -1,6 +1,6 @@
 resource "random_pet" "mycat" {
   length = 1
-  prefix = "Ms"
+  prefix = var.prefix
 }
 
 output "mycat" {
